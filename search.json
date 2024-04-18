@@ -134,7 +134,7 @@
     "href": "resources.html",
     "title": "12  Learning Resources",
     "section": "",
-    "text": "Overleaf offers extensive documentation, tutorials, and examples to help you learn LaTeX and make the most of its features. Additionally, there are numerous online resources, forums, and communities dedicated to LaTeX where you can seek help and advice.\nFor example, when you first start using Overleaf, you may find overleaf.com/learn to be especially helpful. This documentation has a guide for anything that you may wish to do in Overleaf!",
+    "text": "Overleaf offers extensive documentation, tutorials, and examples to help you learn LaTeX and make the most of its features. Additionally, there are numerous online resources, forums, and communities dedicated to LaTeX where you can seek help and advice.\nFor example, when you first start using Overleaf, you may find overleaf.com/learn to be especially helpful. This documentation has a guide for anything that you may wish to do in Overleaf!\nOverleaf has also compiled Youtube resources to help you learn how to write \\(\\LaTeX\\), found here.",
     "crumbs": [
       "Advanced Features & Tips",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Learning Resources</span>"
