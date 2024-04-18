@@ -1,0 +1,143 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Overleaf Starter Guide",
+    "section": "",
+    "text": "Preface\nThe following is a quick starter guide designed to get you acquainted with Overleaf, and online editor for \\(\\LaTeX\\).",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "introduction.html",
+    "href": "introduction.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "Overleaf is a cloud-based \\(\\LaTeX\\) editor that simplifies the process of writing, editing, and collaborating on \\(\\LaTeX\\) documents. While it is not a super powerful text editor, its ease of use and collaboration features make it a favorite among many users. In fact, many graduate students and professors prefer Overleaf over all other editors.\nThis starter guide will walk you through getting started in Overleaf, from signing up for an account, to creating projects, collaborating, and much more.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "sign_up.html",
+    "href": "sign_up.html",
+    "title": "2  Sign Up / Login",
+    "section": "",
+    "text": "To begin using Overleaf, visit the website overleaf.com and either sign up for a new account or log in if you already have one. Use your Harvard Google account, as that will provide you with access to Overleaf’s premium subscription, and free templates.",
+    "crumbs": [
+      "Getting Started with Overleaf",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Sign Up / Login</span>"
+    ]
+  },
+  {
+    "objectID": "create_project.html",
+    "href": "create_project.html",
+    "title": "3  Creating a New Project",
+    "section": "",
+    "text": "These instructions are for projects that are hosted on GitHub, not those that just exist on Overleaf. In other words, we want you to use Overleaf as if it were an IDE for editing TeX files, not as a file storage suite as Google Docs may be. This will make it so that 1) you can collaborate with others who do not use overleaf, 2) you can keep a consistent repository space (GitHub) for all of your projects, and 3) your LaTeX files can live in the same repository as your data, etc.\nTo create a fully new project in Overleaf (and connecting it to GitHub):\n\nAfter logging in, you can create a new project by clicking on the “New Project” button. You’ll be presented with options to start from a blank document, choose from various templates (such as research papers, presentations, CVs, etc.), or upload an existing LaTeX project.\nYou can press the Overleaf project “Menu” button on the top left (next to the home symbol).\nThen, under “Sync”, you can press “GitHub”.\nIt will pop-up with “Export Project to GitHub” and ask you to enter a repository name. When you complete the fields, press “Create a GitHub repository”\nIn the future when you edit, you can commit changes with “Push Overleaf changes to GitHub”\n\nTo import an already existing project from GitHub:\n\nClick “Create a New Project” and then select “Import from GitHub”\nIf this is your first time trying, you will have to click on the pop-up “Link to your GitHub account”\nSign into your GitHub account when you are redirected there.\nIt will redirect you back to Overleaf, and will tell you it was successfully linked.\n\nYou may also want to link to your Dropbox account at this screen, if you have one!\n\nNow, when you click “New Project”, it will show you a list of repositories that you have access to that you can import to Overleaf\nAfter you edit your file, and you are ready to commit it to the GitHub repository:\n\nYou can press the Overleaf project “Menu” button on the top left (next to the home symbol).\nThen, under “Sync”, you can press “GitHub”.\nA pop-up will appear. You can then press “Push Overleaf changes to GitHub”\nWrite your commit message & press “Commit”",
+    "crumbs": [
+      "Getting Started with Overleaf",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Creating a New Project</span>"
+    ]
+  },
+  {
+    "objectID": "interface.html",
+    "href": "interface.html",
+    "title": "4  Understanding the Overleaf Interface",
+    "section": "",
+    "text": "Once you’ve created a new project, you’ll see the Overleaf editor interface, which consists of:\n\nText Editor: The left-hand panel where you write your LaTeX code.\nPreview Pane: The right-hand panel where you can see a live preview of your document as you write.\nToolbar: Located at the top of the editor, it contains buttons for common actions such as compiling, saving, and sharing your document.",
+    "crumbs": [
+      "Getting Started with Overleaf",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Understanding the Overleaf Interface</span>"
+    ]
+  },
+  {
+    "objectID": "writing.html",
+    "href": "writing.html",
+    "title": "5  Writing Your Document",
+    "section": "",
+    "text": "You can start writing your document directly in the text editor using LaTeX syntax. Here are some basic LaTeX commands to get you started:\n\nDocument Structure: Begin with a preamble where you specify the document class, packages, and settings. The main content of your document is enclosed between \\begin{document} and \\end{document} tags.\nSections and Subsections: Use commands like \\section{} and \\subsection{} to organize your document into sections and subsections.\nText Formatting: Apply formatting such as bold, italics, and underline using commands like \\textbf{}, \\textit{}, and \\underline{} respectively.\nLists: Create itemized or numbered lists using the itemize or enumerate environments.\nMath Equations: LaTeX excels at typesetting mathematical equations. Use the $ … $ or [ … ] delimiters for inline or displayed equations respectively.\nFigures and Tables: Insert figures and tables using the and table environments respectively.",
+    "crumbs": [
+      "Getting Started with Overleaf",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Writing Your Document</span>"
+    ]
+  },
+  {
+    "objectID": "collaborating.html",
+    "href": "collaborating.html",
+    "title": "6  Collaborating on Overleaf",
+    "section": "",
+    "text": "One of the key features of Overleaf is its support for real-time collaboration. Here’s how you can collaborate with others on a document:\n\nShare Project: Click on the “Share” button to invite collaborators via email. You can specify their permissions (edit or view-only) and work together in real-time on the same document.\nVersion History: Overleaf keeps track of changes made to your document, allowing you to revert to previous versions if needed. You can access the version history from the history menu.\nChat and Comments: Communicate with collaborators using the built-in chat feature or leave comments on specific parts of the document to discuss changes or provide feedback.",
+    "crumbs": [
+      "Getting Started with Overleaf",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Collaborating on Overleaf</span>"
+    ]
+  },
+  {
+    "objectID": "exporting.html",
+    "href": "exporting.html",
+    "title": "7  Exporting and Downloading",
+    "section": "",
+    "text": "Once your document is ready, you can export it in various formats or download the source files:\n\nPDF Output: Overleaf automatically generates a PDF preview of your document, which you can download or share with others.\nDownload Source Files: You can download the source files of your document in .zip format, including all LaTeX files, figures, and additional resources.\nExport Options: Overleaf offers export options for other formats such as Word, LaTeX, and HTML, allowing you to work with your document in different environments.",
+    "crumbs": [
+      "Getting Started with Overleaf",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Exporting and Downloading</span>"
+    ]
+  },
+  {
+    "objectID": "templates.html",
+    "href": "templates.html",
+    "title": "8  Templates",
+    "section": "",
+    "text": "Overleaf provides a wide range of templates for different types of documents. You can also create your own custom templates or modify existing ones to suit your specific needs.\nYou can see available templates when you click “New Project” and then in the pop-up menu you can click either “Harvard University” under the “Institution Templates” heading, or any of the general Overleaf templates listed under the “Templates” heading.\nSome of the templates that are included with your Overleaf Premium subscription through Harvard are:\n\nDissertation and thesis\nArticle\nLetter\nBeamer presentation\nGeneral text document\n\nMore general Overleaf templates include:\n\nJournal\nBook\nHomework Assignment\nPoster\nPresentation\nResume / C.V.\nThesis",
+    "crumbs": [
+      "Advanced Features & Tips",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Templates</span>"
+    ]
+  },
+  {
+    "objectID": "bibs.html",
+    "href": "bibs.html",
+    "title": "9  Using Bibliographies and Citations",
+    "section": "",
+    "text": "LaTeX makes it easy to manage bibliographies and citations using tools like BibTeX or BibLaTeX. Overleaf integrates with reference management software such as Zotero, Mendeley, and EndNote, allowing you to easily insert citations and generate bibliographies.",
+    "crumbs": [
+      "Advanced Features & Tips",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Using Bibliographies and Citations</span>"
+    ]
+  },
+  {
+    "objectID": "packages.html",
+    "href": "packages.html",
+    "title": "10  Adding Custom Packages and Styles",
+    "section": "",
+    "text": "If you require additional functionality or styling not provided by default in LaTeX, you can include custom packages or define your own styles in the preamble of your document.",
+    "crumbs": [
+      "Advanced Features & Tips",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Adding Custom Packages and Styles</span>"
+    ]
+  },
+  {
+    "objectID": "best_prac.html",
+    "href": "best_prac.html",
+    "title": "11  Best Practices",
+    "section": "",
+    "text": "When collaborating with others on Overleaf, it’s a good idea to communicate effectively, use comments and chat features for discussions, and follow version control best practices to avoid conflicts.",
+    "crumbs": [
+      "Advanced Features & Tips",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Best Practices</span>"
+    ]
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "12  Learning Resources",
+    "section": "",
+    "text": "Overleaf offers extensive documentation, tutorials, and examples to help you learn LaTeX and make the most of its features. Additionally, there are numerous online resources, forums, and communities dedicated to LaTeX where you can seek help and advice.",
+    "crumbs": [
+      "Advanced Features & Tips",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Learning Resources</span>"
+    ]
+  }
+]
